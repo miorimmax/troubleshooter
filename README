@@ -1,0 +1,11 @@
+# Troubleshooter
+
+This is a minimalist Docker image intended to be used for troubleshooting.
+
+It is based on alpine 3.5 and comes with awscli and curl.
+
+## Usage
+
+```
+docker run -it --rm maxmiorim/troubleshooter
+```
